@@ -1,6 +1,7 @@
 CC	=	gcc
 
 SRCS	=	src/main.c	\
+			src/copy.c  \
 
 OBJS	=	$(SRCS:.c=.o)
 
