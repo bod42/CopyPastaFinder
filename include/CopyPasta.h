@@ -6,9 +6,11 @@ typedef struct CopyPast
     int i;
     int ac;
     char **av;
+    char **files;
 } CopyPast;
 
 
-int copyPasta();
+int copyPasta(CopyPast *);
+char **openFiles(char *, char *);
 
 #endif

@@ -5,7 +5,7 @@ SRCS	=	src/main.c	\
 
 OBJS	=	$(SRCS:.c=.o)
 
-CFLAGS  +=      -W -Wextra -Wall
+CFLAGS  +=      -W -Wextra -Wall -g
 
 CPPFLAGS +=     -I include/
 

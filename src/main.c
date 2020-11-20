@@ -11,6 +11,7 @@ void initStruct(CopyPast *copy, int ac, char **av)
 {
     copy->ac = ac;
     copy->av = av;
+    copy->files = NULL;
     copy->i = 4;
 }
 
@@ -30,7 +31,7 @@ int main(int ac, char **av)
         return (-1);
     }
     else
-        copyPasta();
+        copyPasta(copy);
 
     return (0);
 }
