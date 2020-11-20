@@ -1,2 +1,2 @@
 # CopyPastaFinder
- just a little analyze copy paste in C
+ just a little analyze copy paste in C  !!work in progress!!
